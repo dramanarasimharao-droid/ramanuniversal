@@ -13,15 +13,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-html,body{background:#0A0907!important;margin:0}
-body{margin:0;background:#0A0907;color:#F4EEDC;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+html,body{background:#0F1626!important;margin:0}
+body{margin:0;background:#0F1626;color:#FFFFFF;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-.nav a:hover,.foot a:hover{color:#F3CF6E}
+.nav a:hover,.foot a:hover{color:#FFD04D}
 .btn-gold{transition:background .2s}
-.btn-gold:hover{background:#F3CF6E}
-.field{width:100%;box-sizing:border-box;min-height:48px;padding:12px 16px;border-radius:10px;border:1.5px solid rgba(227,178,60,.35);background:#0A0907;color:#F4EEDC;font:400 16px 'Inter',sans-serif}
-.field:focus{outline:2px solid #F3CF6E;outline-offset:2px;border-color:#F3CF6E}
-a:focus-visible,button:focus-visible{outline:2px solid #F3CF6E;outline-offset:3px}
+.btn-gold:hover{background:#FFD04D}
+.field{width:100%;box-sizing:border-box;min-height:48px;padding:12px 16px;border-radius:10px;border:1.5px solid rgba(245,184,28,.35);background:#0F1626;color:#FFFFFF;font:400 16px 'Inter',sans-serif}
+.field:focus{outline:2px solid #FFD04D;outline-offset:2px;border-color:#FFD04D}
+a:focus-visible,button:focus-visible{outline:2px solid #FFD04D;outline-offset:3px}
 details summary{cursor:pointer;list-style:none}
 details summary::-webkit-details-marker{display:none}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -33,35 +33,35 @@ body{display:flex;align-items:stretch;min-height:100vh}
 #top{flex:1 1 0!important;min-width:0;width:auto!important}
 .ru-side{position:relative;flex:0 0 288px;width:288px;padding:16px 0 16px 16px;box-sizing:border-box;z-index:50}
 .ru-side::before,.ru-side::after{content:"";position:absolute;border-radius:50%;filter:blur(40px);pointer-events:none;z-index:0}
-.ru-side::before{width:260px;height:260px;left:-40px;top:40px;background:rgba(227,178,60,.30)}
-.ru-side::after{width:240px;height:240px;left:20px;top:520px;background:rgba(243,207,110,.16)}
+.ru-side::before{width:260px;height:260px;left:-40px;top:40px;background:rgba(245,184,28,.30)}
+.ru-side::after{width:240px;height:240px;left:20px;top:520px;background:rgba(255,208,77,.16)}
 .ru-panel{position:sticky;top:16px;z-index:1;max-height:calc(100vh - 32px);overflow:auto;box-sizing:border-box;padding:16px;border-radius:26px;
- background:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.03));border:1px solid rgba(243,207,110,.30);
+ background:linear-gradient(160deg,rgba(25,35,56,.92),rgba(19,28,48,.88));border:1px solid rgba(255,208,77,.30);
  -webkit-backdrop-filter:blur(22px) saturate(160%);backdrop-filter:blur(22px) saturate(160%);
- box-shadow:0 18px 50px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.14);color:#F4EEDC;font-family:'Inter',system-ui,sans-serif;scrollbar-width:thin}
+ box-shadow:0 18px 50px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.14);color:#FFFFFF;font-family:'Inter',system-ui,sans-serif;scrollbar-width:thin}
 .ru-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
-.ru-prof{display:flex;align-items:center;gap:12px;padding:12px;border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.10);flex:1;min-width:0}
+.ru-prof{display:flex;align-items:center;gap:12px;padding:12px;border-radius:18px;background:rgba(33,45,70,.65);border:1px solid rgba(245,184,28,.22);flex:1;min-width:0}
 .ru-prof img{width:44px;height:44px;border-radius:12px;display:block;flex:none}
-.ru-prof b{display:block;font:600 15px/1.2 'Space Grotesk',sans-serif;letter-spacing:.02em;color:#F4EEDC}
-.ru-prof small{display:block;margin-top:3px;font-size:12px;color:#C9BFA5}
-.ru-burger{display:none;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(227,178,60,.6);background:rgba(255,255,255,.08);color:#F4EEDC;font:600 14px 'Inter',sans-serif;cursor:pointer}
-.ru-search{display:flex;align-items:center;gap:8px;margin:14px 0 6px;padding:0 14px;min-height:44px;border-radius:14px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.12);color:#C9BFA5}
-.ru-search:focus-within{border-color:#F3CF6E}
-.ru-search input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:#F4EEDC;font:400 14px 'Inter',sans-serif}
-.ru-search input::placeholder{color:#9F967F}
-.ru-gt{margin:18px 10px 8px;font:600 11px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#E3B23C}
+.ru-prof b{display:block;font:600 15px/1.2 'Space Grotesk',sans-serif;letter-spacing:.02em;color:#FFFFFF}
+.ru-prof small{display:block;margin-top:3px;font-size:12px;color:#9CA3AF}
+.ru-burger{display:none;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(245,184,28,.6);background:rgba(255,255,255,.08);color:#FFFFFF;font:600 14px 'Inter',sans-serif;cursor:pointer}
+.ru-search{display:flex;align-items:center;gap:8px;margin:14px 0 6px;padding:0 14px;min-height:44px;border-radius:14px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.12);color:#9CA3AF}
+.ru-search:focus-within{border-color:#FFD04D}
+.ru-search input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:#FFFFFF;font:400 14px 'Inter',sans-serif}
+.ru-search input::placeholder{color:#6B7280}
+.ru-gt{margin:18px 10px 8px;font:600 11px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#F5B81C}
 .ru-grp ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:3px}
-.ru-grp a{display:flex;align-items:center;gap:12px;min-height:42px;padding:0 12px;border-radius:13px;color:#D9D0B8;font:500 14.5px 'Inter',sans-serif;border:1px solid transparent;transition:background .2s,color .2s,border-color .2s}
-.ru-grp a:hover{background:rgba(255,255,255,.09);color:#F3CF6E}
-.ru-grp a.ru-on{background:linear-gradient(135deg,rgba(227,178,60,.34),rgba(227,178,60,.12));border-color:rgba(243,207,110,.55);color:#FFF6DC;box-shadow:inset 0 1px 0 rgba(255,255,255,.18)}
+.ru-grp a{display:flex;align-items:center;gap:12px;min-height:42px;padding:0 12px;border-radius:13px;color:#D1D5DB;font:500 14.5px 'Inter',sans-serif;border:1px solid transparent;transition:background .2s,color .2s,border-color .2s}
+.ru-grp a:hover{background:rgba(255,255,255,.09);color:#FFD04D}
+.ru-grp a.ru-on{background:linear-gradient(135deg,rgba(245,184,28,.34),rgba(245,184,28,.12));border-color:rgba(255,208,77,.55);color:#FFFFFF;box-shadow:inset 0 1px 0 rgba(255,255,255,.18)}
 .ru-grp a svg{flex:none;opacity:.95}
 .ru-l{flex:1;min-width:0}
-.ru-badge{flex:none;padding:4px 9px;border-radius:999px;background:#E3B23C;color:#0A0907;font:600 11px/1 'Space Grotesk',sans-serif;letter-spacing:.03em}
-.ru-none{margin:16px 10px;font-size:14px;color:#C9BFA5}
+.ru-badge{flex:none;padding:4px 9px;border-radius:999px;background:#F5B81C;color:#0F1626;font:600 11px/1 'Space Grotesk',sans-serif;letter-spacing:.03em}
+.ru-none{margin:16px 10px;font-size:14px;color:#9CA3AF}
 .ru-cta{display:flex;flex-direction:column;gap:6px;margin-top:20px;padding-top:14px;border-top:1px solid rgba(255,255,255,.12)}
-.ru-cta a{padding:10px 12px;border-radius:12px;font-size:13px;color:#C9BFA5;background:rgba(255,255,255,.05)}
-.ru-cta a:hover{color:#F3CF6E}
-.ru-side a:focus-visible,.ru-burger:focus-visible{outline:2px solid #F3CF6E;outline-offset:2px}
+.ru-cta a{padding:10px 12px;border-radius:12px;font-size:13px;color:#9CA3AF;background:rgba(255,255,255,.05)}
+.ru-cta a:hover{color:#FFD04D}
+.ru-side a:focus-visible,.ru-burger:focus-visible{outline:2px solid #FFD04D;outline-offset:2px}
 #dn-btn{right:14px!important}
 @media (max-width:900px){
  body{flex-direction:column}
@@ -72,8 +72,8 @@ body{display:flex;align-items:stretch;min-height:100vh}
  .ru-side.open .ru-body{display:block}
  #dn-btn{top:auto!important;bottom:14px;position:fixed!important}
 }
-html.day .ru-side::before{background:rgba(227,178,60,.28)}
-html.day .ru-side::after{background:rgba(227,178,60,.14)}
+html.day .ru-side::before{background:rgba(245,184,28,.28)}
+html.day .ru-side::after{background:rgba(245,184,28,.14)}
 html.day .ru-panel{background:linear-gradient(160deg,rgba(255,255,255,.78),rgba(255,255,255,.42));border-color:rgba(138,100,16,.30);box-shadow:0 18px 44px rgba(90,70,20,.16),inset 0 1px 0 rgba(255,255,255,.9);color:#1A1712}
 html.day .ru-prof{background:rgba(255,255,255,.65);border-color:rgba(138,100,16,.18)}
 html.day .ru-prof b{color:#1A1712}html.day .ru-prof small{color:#4A4130}
@@ -81,8 +81,8 @@ html.day .ru-search{background:rgba(255,255,255,.7);border-color:rgba(138,100,16
 html.day .ru-search input{color:#1A1712}html.day .ru-search input::placeholder{color:#6B614D}
 html.day .ru-gt{color:#8A6410}
 html.day .ru-grp a{color:#3A3428}
-html.day .ru-grp a:hover{background:rgba(227,178,60,.18);color:#8A6410}
-html.day .ru-grp a.ru-on{background:linear-gradient(135deg,rgba(227,178,60,.55),rgba(227,178,60,.22));border-color:rgba(138,100,16,.45);color:#1A1712}
+html.day .ru-grp a:hover{background:rgba(245,184,28,.18);color:#8A6410}
+html.day .ru-grp a.ru-on{background:linear-gradient(135deg,rgba(245,184,28,.55),rgba(245,184,28,.22));border-color:rgba(138,100,16,.45);color:#1A1712}
 html.day .ru-none{color:#4A4130}
 html.day .ru-cta{border-top-color:rgba(138,100,16,.2)}
 html.day .ru-cta a{background:rgba(255,255,255,.6);color:#4A4130}
@@ -101,7 +101,7 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 <div class="ru-cta"><a href="https://wa.me/919959118123" target="_blank" rel="noopener">Questions? WhatsApp us</a><a href="https://www.youtube.com/@RUEnglishGrammar" target="_blank" rel="noopener">YouTube: @RUEnglishGrammar</a></div>
 </div></div></aside>
 <!-- RU-SIDEBAR-END -->
-<div id="top" style="width:100%;background:#0A0907;color:#F4EEDC;font-family:'Inter',system-ui,sans-serif">
+<div id="top" style="width:100%;background:#0F1626;color:#FFFFFF;font-family:'Inter',system-ui,sans-serif">
 
 <!-- NAV -->
 
@@ -109,9 +109,9 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 <!-- HEAD -->
 <section style="padding:72px 0 40px">
 <div style="max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box">
-<p style="font:600 13px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#E3B23C;margin:0 0 16px">Contact</p>
+<p style="font:600 13px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#F5B81C;margin:0 0 16px">Contact</p>
 <h1 style="font:700 clamp(36px,5vw,60px)/1.05 'Space Grotesk',sans-serif;letter-spacing:-.02em;margin:0;text-wrap:balance;max-width:760px">Questions about an order or a material? Write to us.</h1>
-<p style="font-size:18px;line-height:1.65;color:#C9BFA5;margin:20px 0 0;max-width:620px">We reply to every message, usually within one working day. For payment or file problems, include the email address you used at checkout.</p>
+<p style="font-size:18px;line-height:1.65;color:#9CA3AF;margin:20px 0 0;max-width:620px">We reply to every message, usually within one working day. For payment or file problems, include the email address you used at checkout.</p>
 </div>
 </section>
 
@@ -119,34 +119,34 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 <section style="padding:24px 0 80px">
 <div style="max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:32px">
 <div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:20px">
-<div style="padding:28px;border:1px solid rgba(227,178,60,.24);border-radius:14px;background:#14110C">
-<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 12px">Email</h2>
-<p style="margin:0;font-size:20px;line-height:1.4;color:#F4EEDC;overflow-wrap:anywhere"><a href="mailto:d.ramanarasimha.rao@gmail.com" style="color:#F3CF6E;font-size:clamp(14px,4.2vw,20px);white-space:nowrap">d.ramanarasimha.rao@gmail.com</a></p>
-<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#B3A98F">Best for orders, refunds and school licences.</p>
+<div style="padding:28px;border:1px solid rgba(245,184,28,.24);border-radius:14px;background:#192338">
+<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 12px">Email</h2>
+<p style="margin:0;font-size:20px;line-height:1.4;color:#FFFFFF;overflow-wrap:anywhere"><a href="mailto:d.ramanarasimha.rao@gmail.com" style="color:#FFD04D;font-size:clamp(14px,4.2vw,20px);white-space:nowrap">d.ramanarasimha.rao@gmail.com</a></p>
+<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#9CA3AF">Best for orders, refunds and school licences.</p>
 </div>
-<div style="padding:28px;border:1px solid rgba(227,178,60,.24);border-radius:14px;background:#14110C">
-<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 12px">WhatsApp</h2>
-<p style="margin:0;font-size:20px;line-height:1.4;color:#F4EEDC"><a href="https://wa.me/919959118123" target="_blank" style="color:#F3CF6E">+91 9959118123</a></p>
-<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#B3A98F">Best for quick questions. We reply within 24 hours.</p>
+<div style="padding:28px;border:1px solid rgba(245,184,28,.24);border-radius:14px;background:#192338">
+<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 12px">WhatsApp</h2>
+<p style="margin:0;font-size:20px;line-height:1.4;color:#FFFFFF"><a href="https://wa.me/919959118123" target="_blank" style="color:#FFD04D">+91 9959118123</a></p>
+<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#9CA3AF">Best for quick questions. We reply within 24 hours.</p>
 </div>
-<div style="padding:28px;border:1px solid rgba(227,178,60,.24);border-radius:14px;background:#14110C">
-<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 12px">YouTube</h2>
-<a href="https://www.youtube.com/@RUEnglishGrammar" style="display:inline-block;font-size:20px;line-height:1.4;color:#F3CF6E;text-decoration:underline">@RUEnglishGrammar</a>
-<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#B3A98F">Free grammar lessons, topic by topic.</p>
+<div style="padding:28px;border:1px solid rgba(245,184,28,.24);border-radius:14px;background:#192338">
+<h2 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 12px">YouTube</h2>
+<a href="https://www.youtube.com/@RUEnglishGrammar" style="display:inline-block;font-size:20px;line-height:1.4;color:#FFD04D;text-decoration:underline">@RUEnglishGrammar</a>
+<p style="margin:8px 0 0;font-size:15px;line-height:1.6;color:#9CA3AF">Free grammar lessons, topic by topic.</p>
 </div>
 </div>
-<form style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px;padding:36px;border:1px solid rgba(227,178,60,.55);border-radius:16px;background:#14110C">
+<form style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px;padding:36px;border:1px solid rgba(245,184,28,.55);border-radius:16px;background:#192338">
 <h2 style="font:600 26px/1.15 'Space Grotesk',sans-serif;margin:0">Send a message</h2>
 <div style="display:flex;flex-direction:column;gap:8px">
-<label for="c-name" style="font-size:14px;font-weight:500;color:#D9D0B8">Your name</label>
+<label for="c-name" style="font-size:14px;font-weight:500;color:#D1D5DB">Your name</label>
 <input class="field" id="c-name" type="text" placeholder="Name">
 </div>
 <div style="display:flex;flex-direction:column;gap:8px">
-<label for="c-email" style="font-size:14px;font-weight:500;color:#D9D0B8">Email address</label>
+<label for="c-email" style="font-size:14px;font-weight:500;color:#D1D5DB">Email address</label>
 <input class="field" id="c-email" type="email" placeholder="The email you used to buy">
 </div>
 <div style="display:flex;flex-direction:column;gap:8px">
-<label for="c-topic" style="font-size:14px;font-weight:500;color:#D9D0B8">What is it about?</label>
+<label for="c-topic" style="font-size:14px;font-weight:500;color:#D1D5DB">What is it about?</label>
 <select class="field" id="c-topic">
 <option>I did not receive my files</option>
 <option>A question about a material</option>
@@ -156,61 +156,61 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 </select>
 </div>
 <div style="display:flex;flex-direction:column;gap:8px">
-<label for="c-msg" style="font-size:14px;font-weight:500;color:#D9D0B8">Message</label>
+<label for="c-msg" style="font-size:14px;font-weight:500;color:#D1D5DB">Message</label>
 <textarea class="field" id="c-msg" rows="5" placeholder="Tell us how we can help" style="resize:vertical"></textarea>
 </div>
-<button id="send" class="btn-gold" type="button" style="min-height:52px;padding:0 30px;border:0;border-radius:999px;background:#E3B23C;color:#0A0907;font:600 16px 'Inter',sans-serif;cursor:pointer;align-self:flex-start">Send message</button>
-<p style="margin:0;font-size:13px;line-height:1.6;color:#9F967F">In Google Sites, place a Google Form here so messages reach your inbox.</p>
+<button id="send" class="btn-gold" type="button" style="min-height:52px;padding:0 30px;border:0;border-radius:999px;background:#F5B81C;color:#0F1626;font:600 16px 'Inter',sans-serif;cursor:pointer;align-self:flex-start">Send message</button>
+<p style="margin:0;font-size:13px;line-height:1.6;color:#6B7280">In Google Sites, place a Google Form here so messages reach your inbox.</p>
 </form>
 </div>
 </section>
 
 <!-- FAQ -->
-<section id="faq" style="padding:80px 0 96px;background:#100E0A;border-top:1px solid rgba(227,178,60,.14)">
+<section id="faq" style="padding:80px 0 96px;background:#131C30;border-top:1px solid rgba(245,184,28,.14)">
 <div style="max-width:800px;margin:0 auto;padding:0 24px;box-sizing:border-box">
-<p style="font:600 13px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#E3B23C;margin:0 0 16px">Quick answers</p>
+<p style="font:600 13px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#F5B81C;margin:0 0 16px">Quick answers</p>
 <h2 style="font:600 clamp(28px,3.4vw,40px)/1.12 'Space Grotesk',sans-serif;margin:0 0 32px;text-wrap:balance">Common questions</h2>
 <div style="display:flex;flex-direction:column;gap:14px">
-<details style="padding:22px 26px;border:1px solid rgba(227,178,60,.24);border-radius:12px;background:#14110C" open>
-<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#F4EEDC">I paid but did not get my files. What should I do?</summary>
-<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D9D0B8">First look in your spam or promotions folder. If nothing arrives within 24 hours, write to us with the email address you used and your payment reference, and we will send the files again.</p>
+<details style="padding:22px 26px;border:1px solid rgba(245,184,28,.24);border-radius:12px;background:#192338" open>
+<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#FFFFFF">I paid but did not get my files. What should I do?</summary>
+<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D1D5DB">First look in your spam or promotions folder. If nothing arrives within 24 hours, write to us with the email address you used and your payment reference, and we will send the files again.</p>
 </details>
-<details style="padding:22px 26px;border:1px solid rgba(227,178,60,.24);border-radius:12px;background:#14110C">
-<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#F4EEDC">Which payment methods can I use?</summary>
-<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D9D0B8">UPI, debit and credit cards, and net banking, all handled securely by Razorpay.</p>
+<details style="padding:22px 26px;border:1px solid rgba(245,184,28,.24);border-radius:12px;background:#192338">
+<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#FFFFFF">Which payment methods can I use?</summary>
+<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D1D5DB">UPI, debit and credit cards, and net banking, all handled securely by Razorpay.</p>
 </details>
-<details style="padding:22px 26px;border:1px solid rgba(227,178,60,.24);border-radius:12px;background:#14110C">
-<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#F4EEDC">Can I use the files for my whole school?</summary>
-<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D9D0B8">A normal purchase is for one teacher or student. If several teachers or sections will use the files, please write to us about a school licence first. See the <a href="https://www.ramanuniversal.com/policies" style="color:#F3CF6E;text-decoration:underline">licence terms</a>.</p>
+<details style="padding:22px 26px;border:1px solid rgba(245,184,28,.24);border-radius:12px;background:#192338">
+<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#FFFFFF">Can I use the files for my whole school?</summary>
+<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D1D5DB">A normal purchase is for one teacher or student. If several teachers or sections will use the files, please write to us about a school licence first. See the <a href="https://www.ramanuniversal.com/policies" style="color:#FFD04D;text-decoration:underline">licence terms</a>.</p>
 </details>
-<details style="padding:22px 26px;border:1px solid rgba(227,178,60,.24);border-radius:12px;background:#14110C">
-<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#F4EEDC">Can I get a refund?</summary>
-<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D9D0B8">Digital files are not refundable after delivery, except for missing, duplicate-charged or damaged files. The full rules are in our <a href="https://www.ramanuniversal.com/policies" style="color:#F3CF6E;text-decoration:underline">refund policy</a>.</p>
+<details style="padding:22px 26px;border:1px solid rgba(245,184,28,.24);border-radius:12px;background:#192338">
+<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#FFFFFF">Can I get a refund?</summary>
+<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D1D5DB">Digital files are not refundable after delivery, except for missing, duplicate-charged or damaged files. The full rules are in our <a href="https://www.ramanuniversal.com/policies" style="color:#FFD04D;text-decoration:underline">refund policy</a>.</p>
 </details>
-<details style="padding:22px 26px;border:1px solid rgba(227,178,60,.24);border-radius:12px;background:#14110C">
-<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#F4EEDC">Which classes do the materials cover?</summary>
-<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D9D0B8">Class VI to X, with focused preparation for AP SSC Class X. Browse them in the <a href="https://www.ramanuniversal.com/shop" style="color:#F3CF6E;text-decoration:underline">shop</a>.</p>
+<details style="padding:22px 26px;border:1px solid rgba(245,184,28,.24);border-radius:12px;background:#192338">
+<summary style="font:600 18px/1.4 'Space Grotesk',sans-serif;color:#FFFFFF">Which classes do the materials cover?</summary>
+<p style="margin:14px 0 0;font-size:16px;line-height:1.7;color:#D1D5DB">Class VI to X, with focused preparation for AP SSC Class X. Browse them in the <a href="https://www.ramanuniversal.com/shop" style="color:#FFD04D;text-decoration:underline">shop</a>.</p>
 </details>
 </div>
 </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="foot" style="background:#060504;border-top:1px solid rgba(227,178,60,.3)">
+<footer class="foot" style="background:#0B101D;border-top:1px solid rgba(245,184,28,.3)">
 <div style="max-width:1200px;margin:0 auto;padding:64px 24px 40px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:40px 48px">
 <div style="flex:2 1 280px;min-width:0">
 <a href="https://www.ramanuniversal.com/home" aria-label="Raman Universal home" style="display:inline-flex;align-items:center;gap:12px">
 <img src="https://lh3.googleusercontent.com/d/1RkyEtduAe5e5il-EXo3ljncS5oL1RRNl" alt="" width="46" height="46" style="width:46px;height:46px;display:block">
-<span style="font:600 18px 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F4EEDC">Raman Universal</span>
+<span style="font:600 18px 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF">Raman Universal</span>
 </a>
-<p style="font-size:15px;line-height:1.65;color:#B3A98F;margin:20px 0 0;max-width:340px">Ready-made English learning and teaching materials for Class VI to X. Learn easily. Teach easily. Save time.</p>
-<a href="https://www.youtube.com/@RUEnglishGrammar" style="display:inline-flex;align-items:center;gap:10px;margin-top:20px;font-size:15px;color:#D9D0B8">
-<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#E3B23C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5l5 2.5-5 2.5z"/></svg>
+<p style="font-size:15px;line-height:1.65;color:#9CA3AF;margin:20px 0 0;max-width:340px">Ready-made English learning and teaching materials for Class VI to X. Learn easily. Teach easily. Save time.</p>
+<a href="https://www.youtube.com/@RUEnglishGrammar" style="display:inline-flex;align-items:center;gap:10px;margin-top:20px;font-size:15px;color:#D1D5DB">
+<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#F5B81C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.5l5 2.5-5 2.5z"/></svg>
 @RUEnglishGrammar on YouTube</a>
 </div>
 <div style="flex:1 1 160px;min-width:0">
-<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 20px">Shop</h3>
-<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D9D0B8">
+<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 20px">Shop</h3>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D1D5DB">
 <li><a href="https://www.ramanuniversal.com/lesson-ppts">Lesson PPTs</a></li>
 <li><a href="https://www.ramanuniversal.com/worksheets">Worksheets</a></li>
 <li><a href="https://www.ramanuniversal.com/study-materials">Study Materials</a></li>
@@ -220,8 +220,8 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 </ul>
 </div>
 <div style="flex:1 1 160px;min-width:0">
-<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 20px">Company</h3>
-<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D9D0B8">
+<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 20px">Company</h3>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D1D5DB">
 <li><a href="https://www.ramanuniversal.com/about">About Raman Sir</a></li>
 <li><a href="https://www.ramanuniversal.com/home">Mission March SSC-2027</a></li>
 <li><a href="https://www.ramanuniversal.com/home">Find your class</a></li>
@@ -229,8 +229,8 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 </ul>
 </div>
 <div style="flex:1 1 170px;min-width:0">
-<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 20px">Policies</h3>
-<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D9D0B8">
+<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 20px">Policies</h3>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;color:#D1D5DB">
 <li><a href="https://www.ramanuniversal.com/policies">Terms and Conditions</a></li>
 <li><a href="https://www.ramanuniversal.com/policies">Privacy Policy</a></li>
 <li><a href="https://www.ramanuniversal.com/policies">Refund and Cancellation</a></li>
@@ -238,16 +238,16 @@ html.day .ru-burger{background:#fff;color:#1A1712;border-color:rgba(138,100,16,.
 </ul>
 </div>
 <div style="flex:1 1 220px;min-width:0">
-<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#E3B23C;margin:0 0 20px">Contact</h3>
-<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;color:#D9D0B8">
+<h3 style="font:600 14px/1 'Space Grotesk',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F5B81C;margin:0 0 20px">Contact</h3>
+<ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:15px;line-height:1.5;color:#D1D5DB">
 <li>Email: d.ramanarasimha.rao@gmail.com</li>
 <li>WhatsApp: +91 9959118123</li>
 <li>Raman Universal English Hub, Vijayawada, Andhra Pradesh, India</li>
 </ul>
 </div>
 </div>
-<div style="border-top:1px solid rgba(227,178,60,.16)">
-<div style="max-width:1200px;margin:0 auto;padding:24px;box-sizing:border-box;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px;font-size:13px;line-height:1.6;color:#9F967F">
+<div style="border-top:1px solid rgba(245,184,28,.16)">
+<div style="max-width:1200px;margin:0 auto;padding:24px;box-sizing:border-box;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px;font-size:13px;line-height:1.6;color:#6B7280">
 <span>© 2026 Raman Universal. All rights reserved.</span>
 <span>Digital materials are for personal and classroom use only. Resale and sharing are not permitted.</span>
 <span>Payments secured by Razorpay</span>
@@ -268,24 +268,24 @@ document.getElementById('send').addEventListener('click',function(){
 
 <!-- DAYNIGHT-START -->
 <style id="dn-css">
-#dn-btn{position:absolute;top:14px;right:14px;z-index:60;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid rgba(227,178,60,.7);background:rgba(20,17,12,.88);color:#F4EEDC;font:600 14px 'Inter',system-ui,sans-serif;cursor:pointer}
-#dn-btn:hover{border-color:#F3CF6E}
+#dn-btn{position:absolute;top:14px;right:14px;z-index:60;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid rgba(245,184,28,.7);background:rgba(15,22,38,.92);color:#FFFFFF;font:600 14px 'Inter',system-ui,sans-serif;cursor:pointer}
+#dn-btn:hover{border-color:#FFD04D}
 html.day,html.day body{background:#FBF8F1!important}
 html.day #dn-btn{background:#fff;color:#1A1712}
-html.day [style*="background:#0A0907"]{background:#FBF8F1!important}
-html.day [style*="background:#100E0A"]{background:#F3EDE0!important}
-html.day [style*="background:#14110C"]{background:#FFFFFF!important}
-html.day [style*="background:#1B1710"]{background:#FFF6DC!important}
-html.day [style*="background:#060504"]{background:#EFE8D8!important}
-html.day [style*="color:#F4EEDC"]{color:#1A1712!important}
-html.day [style*="color:#D9D0B8"]{color:#3A3428!important}
-html.day [style*="color:#C9BFA5"]{color:#4A4130!important}
-html.day [style*="color:#B3A98F"]{color:#6B614D!important}
-html.day [style*="color:#9F967F"]{color:#6B614D!important}
-html.day [style*="color:#E3B23C"]{color:#8A6410!important}
-html.day [style*="color:#F3CF6E"]{color:#8A6410!important}
-html.day .btn-gold,html.day .btn-gold[style]{background:#E3B23C!important;color:#0A0907!important}
-html.day svg[stroke="#E3B23C"]{stroke:#8A6410}
+html.day [style*="background:#0F1626"]{background:#FBF8F1!important}
+html.day [style*="background:#131C30"]{background:#F3EDE0!important}
+html.day [style*="background:#192338"]{background:#FFFFFF!important}
+html.day [style*="background:#212D46"]{background:#FFFFFF!important}
+html.day [style*="background:#0B101D"]{background:#EFE8D8!important}
+html.day [style*="color:#FFFFFF"]{color:#1A1712!important}
+html.day [style*="color:#D1D5DB"]{color:#3A3428!important}
+html.day [style*="color:#9CA3AF"]{color:#4A4130!important}
+html.day [style*="color:#9CA3AF"]{color:#6B614D!important}
+html.day [style*="color:#6B7280"]{color:#6B614D!important}
+html.day [style*="color:#F5B81C"]{color:#8A6410!important}
+html.day [style*="color:#FFD04D"]{color:#8A6410!important}
+html.day .btn-gold,html.day .btn-gold[style]{background:#F5B81C!important;color:#0F1626!important}
+html.day svg[stroke="#F5B81C"]{stroke:#8A6410}
 html.day .nav a:hover,html.day .foot a:hover{color:#8A6410}
 </style>
 <button id="dn-btn" type="button" aria-label="Switch between day and night display"></button>
