@@ -8,8 +8,8 @@
 html,body{height:100%;margin:0;background:#0B1120;overflow:hidden;font-family:'Inter',system-ui,sans-serif;color:#FFFFFF;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 .app{display:flex;height:100%}
-.side{position:relative;flex:0 0 288px;width:288px;height:100%;z-index:5}
-.rail{position:absolute;left:16px;width:256px;top:var(--pt,16px);height:var(--ph,calc(100% - 32px));transition:top .14s ease-out,height .14s ease-out}
+.side{position:relative;flex:0 0 316px;width:316px;height:100%;z-index:5}
+.rail{position:absolute;left:16px;width:284px;top:var(--pt,16px);height:var(--ph,calc(100% - 32px));transition:top .14s ease-out,height .14s ease-out}
 .rail::before,.rail::after{content:"";position:absolute;border-radius:50%;filter:blur(40px);pointer-events:none}
 .rail::before{width:260px;height:260px;left:-40px;top:40px;background:rgba(255,193,7,.16)}
 .rail::after{width:240px;height:240px;left:20px;bottom:40px;background:rgba(255,213,79,.10)}
@@ -32,7 +32,7 @@ a{color:inherit;text-decoration:none}
 .grp a{display:flex;align-items:center;gap:14px;min-height:44px;padding:0 12px;border-radius:13px;color:#F8FAFC;font:500 15px 'Inter',sans-serif;border:1px solid transparent;transition:background .2s,color .2s,border-color .2s}
 .grp a:hover{background:rgba(255,255,255,.07);color:#FFD54F}
 .grp a.on{background:linear-gradient(135deg,rgba(255,193,7,.24),rgba(255,193,7,.08));border-color:rgba(255,213,79,.45);color:#FFFFFF;box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
-.grp a svg{flex:none;color:#FFC107}.l{flex:1;min-width:0}
+.grp a svg{flex:none;color:#FFC107}.l{flex:1;min-width:0;white-space:nowrap}
 .badge{flex:none;padding:5px 10px;border-radius:999px;background:#FFC107;color:#0B1120;font:700 11.5px/1 'Space Grotesk',sans-serif}
 .none{margin:16px 10px;font-size:14px;color:#CBD5E1}
 .foot{margin-top:auto;padding-top:14px}
